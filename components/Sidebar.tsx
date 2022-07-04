@@ -43,7 +43,7 @@ const Sidebar = () => {
         <a
           href="https://github.com/stardusteight-d4c"
           target="_blank"
-          aria-label="Github"
+          aria-label="GitHub"
         >
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{' '}
         </a>
