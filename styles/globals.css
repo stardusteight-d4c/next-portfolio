@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  color: #354358;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #3F00E1, #0575e6);
+}
+
+::-webkit-scrollbar {
+   with: 8px;
+   height: 0px;
+}
+
+/* //TODO put this in document */
+/* body {
+   background-color: black;
+} */
