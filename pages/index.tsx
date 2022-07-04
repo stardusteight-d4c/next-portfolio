@@ -21,9 +21,10 @@ const About = ({ endpoint }) => {
         <title>Gabriel Sena | Web Developer</title>
       </Head>
       <h6 className="my-3 text-base font-medium">
-        I'm currently learning to develop minimally decent applications to enter
-        the job market soon and learn more and more. I hope we can make progress
-        together, after all there will always be a next level!
+        Hi! My name is Gabriel and I'm 20 years old. I'm currently learning to
+        develop applications to enter the tech market soon and be able to learn
+        more about this world. I hope we can make progress together, after all
+        there will always be a next level!
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

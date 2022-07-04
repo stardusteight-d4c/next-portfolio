@@ -22,9 +22,11 @@ const Resume = () => {
           <div className="">
             <p className="font-semibold">Alura | Online Technology Courses</p>
             <p className="my-3">
-              I'm currently doing Alura, but I study self-taught with Rocketseat
-              and its immersions, in addition to practicing and learning new
-              techniques with free materials on the Internet
+              I'm a self-taught student and I've been doing online courses of
+              two major edtech platforms - Alura and Rocketseat. In my process
+              of learning new techniques the free resources available on the
+              internet, such as videos and tutorials, also plays a big part in
+              my development.
             </p>
           </div>
         </motion.div>
