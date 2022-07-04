@@ -2,6 +2,7 @@ import Bar from '../components/Bar'
 import { languages, tools } from '../data'
 import { motion } from 'framer-motion'
 import { fadeInUp, routerAnimation } from '../animations'
+import Head from 'next/head'
 
 const Resume = () => {
   return (
@@ -11,6 +12,9 @@ const Resume = () => {
       initial="initial"
       animate="animate"
     >
+      <Head>
+        <title>Gabriel Sena | Resume</title>
+      </Head>
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">

@@ -1,14 +1,10 @@
-import {
-  GetServerSideProps,
-  GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
-} from 'next'
+import { GetServerSideProps, GetServerSidePropsContext } from 'next'
 import ServiceCard from '../components/ServiceCard'
 import { services } from '../data'
 import { motion } from 'framer-motion'
 import { fadeInUp, routerAnimation, stagger } from '../animations'
+
+import Head from 'next/head'
 
 const About = ({ endpoint }) => {
   console.log(endpoint)
@@ -21,6 +17,9 @@ const About = ({ endpoint }) => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Gabriel Sena | Web Developer</title>
+      </Head>
       <h6 className="my-3 text-base font-medium">
         I'm currently learning to develop minimally decent applications to enter
         the job market soon and learn more and more. I hope we can make progress
