@@ -136,4 +136,15 @@ export const projects: IProject[] = [
       "A small game made with Web Speech API, using its constructor to create a new SpeechRecognition object, which has several event handlers available to detect when speech is input through the device's microphone.",
     key_techs: ['Node', 'Javascript'],
   },
+  {
+    id: 4,
+    name: 'HZC | Single Page Application',
+    description:
+      'A Single Page Application built with Next.js and React. By default, Next.js pre-renders each page. This means that Next.js generates HTML for each page in advance, instead of doing everything via client-side JavaScript. Pre-rendering can result in better performance and SEO.',
+    image_path: '/images/HZC.png',
+    deployed_url: 'https://next-hzc.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/next-hzc',
+    category: ['React'],
+    key_techs: ['React', 'Next.js'],
+  },
 ]
