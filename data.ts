@@ -17,13 +17,13 @@ export const services: Service[] = [
     Icon: FaServer,
     title: 'Backend Development',
     about:
-      'Handle database, server, API using <b>Express</b> & others popular frameworks',
+      'Handle servers and APIs using <b>Express</b> & others popular frameworks',
   },
   {
     Icon: AiOutlineApi,
-    title: 'API Development',
+    title: 'Dynamic Applications',
     about:
-      'Learning to make an app more dynamic with <b>RESTFUL</b>, <b>GraphQL</b> APIs and <b>CMS</b>',
+      'Make an app more dynamic with <b>GraphQL</b> and <b>CMS</b>',
   },
   {
     Icon: MdDeveloperMode,
