@@ -41,7 +41,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: 'Nerver Stop Learning',
     about:
-      "I'm always studying looking to build more complete and sophisticated applications",
+      "Looking to build more complete and sophisticated applications",
   },
 ]
 
