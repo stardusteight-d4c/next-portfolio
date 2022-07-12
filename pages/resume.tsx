@@ -15,7 +15,6 @@ const Resume = () => {
       <Head>
         <title>Gabriel Sena | Resume</title>
       </Head>
-      {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
@@ -44,7 +43,6 @@ const Resume = () => {
         </motion.div>
       </div>
 
-      {/*Languages & Tools */}
       <div className="grid gap-9 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>

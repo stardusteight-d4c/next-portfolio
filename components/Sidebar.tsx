@@ -26,7 +26,6 @@ const Sidebar = () => {
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Web Developer
       </p>
-      {/* Resume */}
       <a
         href="/assets/Resume.pdf"
         download="Resume.pdf"
@@ -36,7 +35,6 @@ const Sidebar = () => {
         <span>Download Resume</span>
       </a>
 
-      {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-purple md:w-full ">
         <a
           href="https://github.com/stardusteight-d4c"
@@ -47,7 +45,6 @@ const Sidebar = () => {
         </a>
       </div>
 
-      {/* Contacts */}
       <div
         className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
@@ -57,8 +54,6 @@ const Sidebar = () => {
         </div>
         <p className="my-2 ">bellsena@outlook.com</p>
       </div>
-
-      {/* Email Button */}
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple to-blue-500 hover:scale-105 focus:outline-none"
