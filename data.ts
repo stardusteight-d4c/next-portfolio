@@ -11,13 +11,13 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: 'Frontend Development',
     about:
-      'I can build a beautiful and scalable SPA using <b>React</b> and <b>Next.js</b>',
+      'I can build a beautiful and dynamic SPA using <b>React</b> and <b>Next.js</b>',
   },
   {
     Icon: FaServer,
     title: 'Backend Development',
     about:
-      'Handle servers and APIs using <b>Express</b> & others popular frameworks',
+      'Handle servers and APIs using Fetch API & popular frameworks',
   },
   {
     Icon: AiOutlineApi,
