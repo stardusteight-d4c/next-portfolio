@@ -17,7 +17,7 @@ export const services: Service[] = [
     Icon: FaServer,
     title: 'Backend Development',
     about:
-      'Handle servers and APIs using Fetch API & popular frameworks',
+      'Handle servers and APIs using <b>Fetch API</b> & popular frameworks',
   },
   {
     Icon: AiOutlineApi,
