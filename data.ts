@@ -147,4 +147,15 @@ export const projects: IProject[] = [
     category: ['React'],
     key_techs: ['React', 'Next.js'],
   },
+  {
+    id: 5,
+    name: 'Casa Verde | getStaticProps & getStaticPaths',
+    description:
+      'Practicing using the getStaticProps and getStaticPaths features from Next.js by creating dynamic routes and stored data in a Content Management System (CMS). Using GraphQL queries to make requests to DatoCMS and generate routes through the Product ID with its respective data via getStaticProps.',
+    image_path: '/images/casaVerde.png',
+    deployed_url: 'https://casa-verde-inky-seven.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/casa-verde',
+    category: ['React'],
+    key_techs: ['React', 'Next.js'],
+  },
 ]
