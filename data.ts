@@ -35,7 +35,7 @@ export const services: Service[] = [
     Icon: AiOutlineAntDesign,
     title: 'Agile Software',
     about:
-      'Team collaboration, readable code, continuous integration and continuous delivery',
+      'Team collaboration, readable code, continuous integration and <b>continuous improvement</b>',
   },
   {
     Icon: RiComputerLine,
