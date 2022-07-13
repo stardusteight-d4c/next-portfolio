@@ -158,4 +158,15 @@ export const projects: IProject[] = [
     category: ['React'],
     key_techs: ['React', 'Next.js'],
   },
+  {
+    id: 6,
+    name: 'Pong Game | Canvas and Javascript',
+    description:
+      'I used the HTML5 canvas element and its Javascript API to manipulate images, control audio streams and draw graphics animations. > I also used the vanilla-tilt.js script to add the effect of a smooth 3D tilt.',
+    image_path: '/images/pong.png',
+    deployed_url: 'https://stardusteight-d4c.github.io/pong-game/',
+    github_url: 'https://github.com/stardusteight-d4c/pong-game',
+    category: ['Javascript'],
+    key_techs: ['Javascript', 'Canvas'],
+  },
 ]
