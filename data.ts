@@ -35,7 +35,7 @@ export const services: Service[] = [
     Icon: AiOutlineAntDesign,
     title: 'Agile Software',
     about:
-      'Team collaboration, readable code, continuous integration and <b>continuous improvement</b>',
+      'Team collaboration, readable code and <b>continuous improvement</b>',
   },
   {
     Icon: RiComputerLine,
@@ -149,7 +149,7 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: 'Casa Verde | getStaticProps & getStaticPaths',
+    name: 'Casa Verde | GetStaticProps',
     description:
       'Practicing using the getStaticProps and getStaticPaths features from Next.js by creating dynamic routes and stored data in a Content Management System (CMS). Using GraphQL queries to make requests to DatoCMS and generate routes through the Product ID with its respective data via getStaticProps.',
     image_path: '/images/casaVerde.png',
