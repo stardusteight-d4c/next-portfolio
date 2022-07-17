@@ -127,7 +127,7 @@ export const projects: IProject[] = [
 
   {
     id: 3,
-    name: 'Secret Number - Web Speech API',
+    name: 'Web Speech API',
     image_path: '/images/secretNumber.png',
     deployed_url: 'https://stardusteight-d4c.github.io/game_speech-api/',
     github_url: 'https://github.com/stardusteight-d4c/game_speech-api',
@@ -138,7 +138,7 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
-    name: 'HZC | Single Page Application',
+    name: 'Single Page Application',
     description:
       'A Single Page Application built with Next.js and React. By default, Next.js pre-renders each page. This means that Next.js generates HTML for each page in advance, instead of doing everything via client-side JavaScript. Pre-rendering can result in better performance and SEO.',
     image_path: '/images/HZC.png',
@@ -149,7 +149,7 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: 'Casa Verde | GetStaticProps',
+    name: 'getStaticProps and getStaticPaths',
     description:
       'Practicing using the getStaticProps and getStaticPaths features from Next.js by creating dynamic routes and stored data in a Content Management System (CMS). Using GraphQL queries to make requests to DatoCMS and generate routes through the Product ID with its respective data via getStaticProps.',
     image_path: '/images/casaVerde.png',
@@ -160,7 +160,7 @@ export const projects: IProject[] = [
   },
   {
     id: 6,
-    name: 'Pong Game | Canvas and Javascript',
+    name: 'Canvas and Javascript',
     description:
       'I used the HTML5 canvas element and its Javascript API to manipulate images, control audio streams and draw graphics animations. > I also used the vanilla-tilt.js script to add the effect of a smooth 3D tilt.',
     image_path: '/images/pong.png',
