@@ -169,4 +169,15 @@ export const projects: IProject[] = [
     category: ['Javascript'],
     key_techs: ['Javascript', 'Canvas'],
   },
+  {
+    id: 7,
+    name: 'Twitch Clone | With NextAuth.js',
+    description:
+      'Clone the Twitch interface using some Headless UI components. A login and logout system was implemented with NextAuth.js and its providers, using APIs and authentication services from Google and Github with the OAuth protocol to allow users to log in through third-party websites.',
+    image_path: '/images/twitch.png',
+    deployed_url: 'https://twitch-clone-ten.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/twitch-clone',
+    category: ['React'],
+    key_techs: ['React', 'Next.js'],
+  },
 ]
