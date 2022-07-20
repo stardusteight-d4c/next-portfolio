@@ -1,4 +1,4 @@
-import { FunctionComponent, useState } from 'react'
+import { FunctionComponent } from 'react'
 import { AiFillGithub, AiFillProject } from 'react-icons/ai'
 import { MdClose } from 'react-icons/md'
 import { IProject } from '../types'
@@ -16,7 +16,6 @@ const ProjectCard: FunctionComponent<{
   project: {
     name,
     image_path,
-    category,
     deployed_url,
     description,
     github_url,

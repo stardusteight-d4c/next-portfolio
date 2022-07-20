@@ -1,4 +1,3 @@
-import { FunctionComponent } from 'react'
 import { IconType } from 'react-icons'
 export interface Service {
   Icon: IconType
@@ -23,4 +22,4 @@ export interface IProject {
   key_techs: string[]
 }
 
-export type Category = 'React' | 'Node.js' | 'Javascript' | 'Typescript'
+export type Category = 'React' | 'Node.js' | 'Javascript' | 'Next.js'
