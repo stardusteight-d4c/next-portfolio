@@ -125,9 +125,20 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
+    name: 'Spotify | Spotify Web API',
+    description:
+      'Construction of an application using Spotify\'s public API in which the Spotify Web API endpoints return JSON metadata about music artists, albums and tracks, directly from the Spotify Data Catalog, with its NextAuth provider it is possible to create a session from the user\'s Spotify account.',
+    image_path: '/images/spotify.png',
+    deployed_url: 'https://spotify-clone-seven-orcin.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/spotify-clone',
+    category: ['React', 'Next.js'],
+    key_techs: ['React', 'Next.js', 'Recoil'],
+  },
+  {
+    id: 5,
     name: 'Canvas and Javascript',
     description:
-      'I used the HTML5 canvas element and its Javascript API to manipulate images, control audio streams and draw graphics animations. > I also used the vanilla-tilt.js script to add the effect of a smooth 3D tilt.',
+      'I used the HTML5 canvas element and its Javascript API to manipulate images, control audio streams and draw graphics animations. I also used the vanilla-tilt.js script to add the effect of a smooth 3D tilt.',
     image_path: '/images/pong.png',
     deployed_url: 'https://stardusteight-d4c.github.io/pong-game/',
     github_url: 'https://github.com/stardusteight-d4c/pong-game',
@@ -135,7 +146,7 @@ export const projects: IProject[] = [
     key_techs: ['Javascript', 'Canvas'],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Single Page Application',
     description:
       'A Single Page Application built with Next.js and React. By default, Next.js pre-renders each page. This means that Next.js generates HTML for each page in advance, instead of doing everything via client-side JavaScript. Pre-rendering can result in better performance and SEO.',
@@ -146,7 +157,7 @@ export const projects: IProject[] = [
     key_techs: ['React', 'Next.js'],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Web Speech API',
     image_path: '/images/secretNumber.png',
     deployed_url: 'https://stardusteight-d4c.github.io/game_speech-api/',
@@ -157,7 +168,7 @@ export const projects: IProject[] = [
     key_techs: ['Node', 'Javascript'],
   },
   {
-    id: 7,
+    id: 8,
     name: 'Rocket NFTs',
     image_path: '/images/rocketNFTs.png',
     deployed_url: 'https://rocket-nfts-three.vercel.app/',
@@ -168,7 +179,7 @@ export const projects: IProject[] = [
     key_techs: ['React', 'Tailwindcss', 'Vite'],
   },
   {
-    id: 8,
+    id: 9,
     name: 'getStaticProps and getStaticPaths',
     description:
       'Practicing using the getStaticProps and getStaticPaths features from Next.js by creating dynamic routes and stored data in a Content Management System (CMS). Using GraphQL queries to make requests to DatoCMS and generate routes through the Product ID with its respective data via getStaticProps.',
