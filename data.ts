@@ -114,10 +114,10 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: 'Designium | Blog',
-    image_path: '/images/designium.png',
-    deployed_url: 'https://personal-blog-ten-sandy.vercel.app/',
-    github_url: 'https://github.com/stardusteight-d4c/personal-blog',
+    name: 'Pulstar Blog',
+    image_path: '/images/pulstar.png',
+    deployed_url: 'https://pulstar-blog.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/pulstar-blog',
     category: ['React', 'Next.js'],
     description:
       'A small blog fully manageable via Hygraph, using some of the most modern technologies on the market such as React, Next.js and GraphQL. With the content management system attached to the blog, we can publish any post and submit comments that will be reviewed and published or deleted.',
