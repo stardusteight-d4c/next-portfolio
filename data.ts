@@ -125,14 +125,14 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
-    name: 'Spotify | Spotify Web API',
+    name: 'Twitter | Firebase, NextAuth.js & Handless UI',
     description:
-      'Construction of an application using Spotify\'s public API in which the Spotify Web API endpoints return JSON metadata about music artists, albums and tracks, directly from the Spotify Data Catalog, with its NextAuth provider it is possible to create a session from the user\'s Spotify account.',
-    image_path: '/images/spotify.png',
-    deployed_url: 'https://spotify-clone-seven-orcin.vercel.app/',
-    github_url: 'https://github.com/stardusteight-d4c/spotify-clone',
+      'Twitter feed clone where user authentication is performed with a Google provider using NextAuth.js and Firebase. Using Firebase\'s Firestore service as a Database, from which the user can insert Tweets and delete them through Firebase service functions like addDoc and deleteDoc.',
+    image_path: '/images/twitter.png',
+    deployed_url: 'https://twitter-clone-gold-six.vercel.app/',
+    github_url: 'https://github.com/stardusteight-d4c/twitter-clone',
     category: ['React', 'Next.js'],
-    key_techs: ['React', 'Next.js', 'Recoil'],
+    key_techs: ['React', 'Next.js', 'Recoil', 'Firebase'],
   },
   {
     id: 5,
